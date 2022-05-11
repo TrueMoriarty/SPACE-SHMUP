@@ -25,10 +25,9 @@ public class BoundsCheck : MonoBehaviour
 
 
     void LateUpdate()
-    { // d
+    {
         Vector3 pos = transform.position;
         isOnScreen = true;
-
         if (pos.x > camWidth - radius)
         {
             pos.x = camWidth - radius;
